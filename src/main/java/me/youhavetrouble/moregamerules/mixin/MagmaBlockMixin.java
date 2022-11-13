@@ -1,6 +1,6 @@
 package me.youhavetrouble.moregamerules.mixin;
 
-import me.youhavetrouble.moregamerules.MoreGameRules;
+import me.youhavetrouble.moregamerules.ExtraGameRule;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.MagmaBlock;
@@ -21,6 +21,6 @@ public class MagmaBlockMixin extends Block {
 
 	@Inject(at = @At("HEAD"), method = "onSteppedOn", cancellable = true)
 	private void injectedOnSteppedOn(World world, BlockPos pos, BlockState state, Entity entity, CallbackInfo info) {
-		if (!world.getGameRules().getBoolean(MoreGameRules.MAGMA_BLOCK_DAMAGE)) info.cancel();
+		if (!world.getGameRules().getBoolean(ExtraGameRule.MAGMA_BLOCK_DAMAGE)) info.cancel();
 	}
 }
