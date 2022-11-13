@@ -4,13 +4,15 @@
   "package": "me.youhavetrouble.moregamerules.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ServerWorldMixin"
+    "FireworkItemMixin",
+    "LivingEntityMixin",
+    "ServerWorldMixin",
+    "TridentItemMixin"
   ],
   "client": [
   ],
   "server": [
     "MagmaBlockMixin"
-
   ],
   "injectors": {
     "defaultRequire": 1
