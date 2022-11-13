@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "me.youhavetrouble.moregamerules.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+  "mixins": [],
+  "client": [],
+  "server": [
+    "MagmaBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

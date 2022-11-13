@@ -1,0 +1,4 @@
+{
+  "gamerule.magmaBlockDamage": "Magma block damage",
+  "gamerule.magmaBlockDamage.description": "Controls if magma blocks should do damage when stepped on"
+}
