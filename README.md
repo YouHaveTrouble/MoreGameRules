@@ -16,3 +16,6 @@ Controls how much damage elytras take when boosting with a firework
 
 ### elytraDamageFromRiptideTrident
 Controls how much damage elytras take when boosting with a riptide trident
+
+### playerCrits
+Decides if players should be able to crit

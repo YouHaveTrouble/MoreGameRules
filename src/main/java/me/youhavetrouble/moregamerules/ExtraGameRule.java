@@ -12,6 +12,8 @@ public class ExtraGameRule {
     public static GameRules.Key<GameRules.IntRule> ELYTRA_DAMAGE_FROM_FIREWORK_BOOST;
     public static GameRules.Key<GameRules.IntRule> ELYTRA_DAMAGE_FROM_RIPTIDE_BOOST;
 
+    public static GameRules.Key<GameRules.BooleanRule> PLAYER_CRITS;
+
     protected static void init() {
         MAGMA_BLOCK_DAMAGE = GameRuleRegistry.register(
                 "magmaBlockDamage",
@@ -37,6 +39,11 @@ public class ExtraGameRule {
                 "elytraDamageFromRiptideTrident",
                 GameRules.Category.MISC,
                 GameRuleFactory.createIntRule(0, 0, Integer.MAX_VALUE)
+        );
+        PLAYER_CRITS = GameRuleRegistry.register(
+                "playerCrits",
+                GameRules.Category.PLAYER,
+                GameRuleFactory.createBooleanRule(true)
         );
     }
 

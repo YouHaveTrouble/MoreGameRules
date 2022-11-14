@@ -8,5 +8,7 @@
   "gamerule.elytraDamageFromFirework": "Elytra damage from firework boost",
   "gamerule.elytraDamageFromFirework.description": "Controls how much damage elytras take when boosting with a firework",
   "gamerule.elytraDamageFromRiptideTrident": "Elytra damage from firework boost",
-  "gamerule.elytraDamageFromRiptideTrident.description": "Controls how much damage elytras take when boosting with a riptide trident"
+  "gamerule.elytraDamageFromRiptideTrident.description": "Controls how much damage elytras take when boosting with a riptide trident",
+  "gamerule.playerCrits": "Player crits",
+  "gamerule.playerCrits.description": "Decides if players should be able to crit"
 }

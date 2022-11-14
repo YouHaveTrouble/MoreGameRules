@@ -6,6 +6,7 @@
   "mixins": [
     "FireworkItemMixin",
     "LivingEntityMixin",
+    "PlayerEntityMixin",
     "ServerWorldMixin",
     "TridentItemMixin"
   ],
