@@ -1,6 +1,6 @@
 # More Game Rules
 
-Self explanatory mod. Adds more game rules.
+Self-explanatory mod. Adds more game rules.
 
 ### magmaBlockDamage
 Controls if magma blocks should do damage when stepped on.
@@ -19,3 +19,6 @@ Controls how much damage elytras take when boosting with a riptide trident
 
 ### playerCrits
 Decides if players should be able to crit
+
+### pistonPushLimit
+Controls how many blocks pistons can push

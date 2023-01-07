@@ -11,8 +11,8 @@ public class ExtraGameRule {
     public static GameRules.Key<GameRules.IntRule> ELYTRA_DAMAGE_PER_SECOND;
     public static GameRules.Key<GameRules.IntRule> ELYTRA_DAMAGE_FROM_FIREWORK_BOOST;
     public static GameRules.Key<GameRules.IntRule> ELYTRA_DAMAGE_FROM_RIPTIDE_BOOST;
-
     public static GameRules.Key<GameRules.BooleanRule> PLAYER_CRITS;
+    public static GameRules.Key<GameRules.IntRule> PISTON_PUSH_LIMIT;
 
     protected static void init() {
         MAGMA_BLOCK_DAMAGE = GameRuleRegistry.register(
@@ -44,6 +44,11 @@ public class ExtraGameRule {
                 "playerCrits",
                 GameRules.Category.PLAYER,
                 GameRuleFactory.createBooleanRule(true)
+        );
+        PISTON_PUSH_LIMIT = GameRuleRegistry.register(
+                "pistonPushLimit",
+                GameRules.Category.MISC,
+                GameRuleFactory.createIntRule(12, 0, 512)
         );
     }
 
