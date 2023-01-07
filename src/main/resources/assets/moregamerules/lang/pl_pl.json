@@ -1,0 +1,16 @@
+{
+  "gamerule.magmaBlockDamage": "Obrażenia od bloku magmy",
+  "gamerule.magmaBlockDamage.description": "Decyduje, czy blok magmy powinien zadawać obrażenia",
+  "gamerule.lightningRodRange": "Zasięg piorunochronu",
+  "gamerule.lightningRodRange.description": "Zasięg, do jakiego piorunochron będzie przekierowywać pioruny",
+  "gamerule.elytraDamagePerSecond": "Uszkodzenia elytry na sekundę",
+  "gamerule.elytraDamagePerSecond.description": "Jak dużo uszkodzeń będą odnosić elytry podczas lotu",
+  "gamerule.elytraDamageFromFirework": "Uszkodzenia elytry od fajerwerków",
+  "gamerule.elytraDamageFromFirework.description": "Jak dużo uszkodzeń będą odnosić elytry przy użyciu fajerwerka",
+  "gamerule.elytraDamageFromRiptideTrident": "Uszkodzenia elytry od trójzębu",
+  "gamerule.elytraDamageFromRiptideTrident.description": "Jak dużo uszkodzeń będą odnosić elytry przy użyciu trójzębu z torpedą",
+  "gamerule.playerCrits": "Krytyki graczy",
+  "gamerule.playerCrits.description": "Czy gracze powinni móc zadawać krytyczne obrażenia",
+  "gamerule.pistonPushLimit": "Limit popychania tłoków",
+  "gamerule.description": "Jak dużo bloków może popchnąć tłok"
+}
